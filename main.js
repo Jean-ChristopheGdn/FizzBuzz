@@ -1,6 +1,8 @@
 let result = document.getElementById("result");
 let getNumber = document.getElementById("number");
 
+// Display Fizz if %3, Buzz if %5 and FizzBuzz for both.
+
 function fizzBuzz() {
     let number = getNumber.value;
     for (let i = 0; i <= number; i++) {
